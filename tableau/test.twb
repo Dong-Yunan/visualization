@@ -1,0 +1,3231 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20182.18.0627.2230                               -->
+<workbook original-version='18.1' source-build='2018.2.0 (20182.18.0627.2230)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='10.253.0.146' inline='true' name='federated.18wobp815crbcf1elzypr0weh59w' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='10.253.0.146' name='hadoophive.0i9ckl00rzmgk615dday7081m1i9'>
+            <connection authentication='yes' authentication-type='3' class='hadoophive' connection-type='2' dbname='' http-path='' kerberos-host='' kerberos-realm='' kerberos-service='' odbc-connect-string-extras='' one-time-sql='' port='10200' schema='default' server='10.253.0.146' sslcert='' sslfile='' sslmode='' transport-type='1' use-native-query='1' username='yunan.dong'>
+              <connection-customization class='hadoophive' enabled='false' version='18.1'>
+                <vendor name='hadoophive' />
+                <driver name='hadoophive' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='yes' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='yes' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='yes' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='yes' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='yes' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='yes' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='yes' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='yes' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <relation connection='hadoophive.0i9ckl00rzmgk615dday7081m1i9' name='custom_sql_query' type='text'>with OrderWaste as(&#13;&#10; select a.order_date as order_date ,a.store_code as store_code ,a.store_name as store_name &#13;&#10;       -- ,a.order_no as order_no&#13;&#10;        ,a.sku_code as sku_code&#13;&#10; --,d.bigorder as bigorder&#13;&#10;   -- ,a.orders as orders&#13;&#10;    ,a.sku_quantity as sku_quantity,a.sell_price as sell_price ,a.activity_quantity as activity_quantity&#13;&#10;    ,a.activity_sell_price as activity_sell_price&#13;&#10;    ,a.payable_price as payable_price ,a.origin_payable_price as origin_payable_price&#13;&#10;    ,a.profit as profit,a.origin_profit as origin_profit,a.activity_origin_payable_price as activity_origin_payable_price&#13;&#10;    ,f.city_code as city_code ,store_city as store_city ,f.is_new_store as is_new_store,f.opening_date as opening_date&#13;&#10;    ,b.is_working_day as is_working_day&#13;&#10;    ,c.waste as waste,c.waste_quantity as waste_quantity,c.cost as cost,c.receiving_quantity as receiving_quantity&#13;&#10;    from&#13;&#10;    (select order_date,store_code,store_name,sku_code&#13;&#10;        --,if(activity_name like &apos;%动态促销%&apos;,1,0) as is_activity&#13;&#10;       -- ,count(distinct order_no)as orders --订单数量&#13;&#10;      ,sum(sku_quantity)as sku_quantity --sku销售数量&#13;&#10;        ,sum(sell_price)  as sell_price --应收价钱&#13;&#10;        ,sum(case when activity_name like &apos;%动态促销%&apos; then sku_quantity else 0 end) as activity_quantity  --动促销量&#13;&#10;         ,sum(case when activity_name like &apos;%动态促销%&apos; then origin_payable_price else 0 end) as activity_origin_payable_price  --动促蜂蜜抵扣前的实际支付&#13;&#10;         ,sum(case when activity_name like &apos;%动态促销%&apos; then sell_price else 0 end) as activity_sell_price  --动 促应收 &#13;&#10;       ,sum(payable_price)as payable_price --实际支付&#13;&#10;        ,sum(origin_payable_price)as origin_payable_price --蜂蜜抵扣前的实际支付&#13;&#10;        ,sum(payable_price-cost_price-cost_tax+vendor_allocated_cost_price) as profit --利润额&#13;&#10;        ,sum(origin_payable_price-cost_price-cost_tax+vendor_allocated_cost_price) as origin_profit --蜂蜜抵扣前的利润额&#13;&#10;    from dw_order_sku_promotion_v1&#13;&#10;    where dt=date_format(date_sub(current_date,1),&apos;yMMdd&apos;)&#13;&#10;        and order_status=&apos;FINISHED&apos; &#13;&#10;        and order_date &gt;&gt;= date_format(date_sub(current_date,14),&apos;Y-MM-dd&apos;) &#13;&#10;        and sku_division_code in (&apos;0101&apos;,&apos;0102&apos;,&apos;0103&apos;,&apos;0401&apos;,&apos;0201&apos;,&apos;0202&apos;)&#13;&#10;       -- and  order_no not in (select distinct order_no &#13;&#10;        --                        from dw_dynamic_promotion_user_big_order_di&#13;&#10;        --                        where dt&gt;&gt;=date_format(date_sub(current_date,1),&apos;YMMdd&apos;) )&#13;&#10;    group by order_date,store_code,store_name,sku_code ) a&#13;&#10;join&#13;&#10;    (select dim_store_info.store_code as store_code ,dim_store_info.city_code as city_code ,dim_store_info.store_city as store_city&#13;&#10;            ,dim_store_store_opening_date.is_new_store as is_new_store,dim_store_store_opening_date.opening_date as opening_date&#13;&#10;            --, dim_dynamic_promotion_store_division_info.shop_tag as shop_tag&#13;&#10;    from dim_store_info &#13;&#10;     join dim_store_store_opening_date &#13;&#10;        on dim_store_info.store_code=dim_store_store_opening_date.store_code&#13;&#10;      --  left join dim_dynamic_promotion_store_division_info&#13;&#10;      --      on dim_store_info.store_code=dim_dynamic_promotion_store_division_info.store_code&#13;&#10;    where  dim_store_info.dt=date_format(date_sub(current_date,1),&apos;YMMdd&apos;) and dim_store_info.store_type=0&#13;&#10;        and  dim_store_store_opening_date.dt=date_format(date_sub(current_date,1),&apos;YMMdd&apos;)  and dim_store_store_opening_date.store_type=0 and dim_store_store_opening_date.is_new_store=0&#13;&#10;          --  and  dim_dynamic_promotion_store_division_info.dt=date_format(date_sub(current_date,1),&apos;YMMdd&apos;)  and dim_dynamic_promotion_store_division_info.store_type=0&#13;&#10;    ) f &#13;&#10;        on a.store_code=f.store_code&#13;&#10;left join  &#13;&#10;     (select report_date,store_code,sku_code&#13;&#10;    ,if(sum(sale_waste_amount+adjustment_balance_amount)&lt;&lt;0,-sum(sale_waste_amount+adjustment_balance_amount),0) as waste&#13;&#10;    ,if(sum(sale_waste_quantity+adjustment_balance_quantity)&lt;&lt;0,-sum(sale_waste_quantity+adjustment_balance_quantity),0) as waste_quantity&#13;&#10;    ,sum(sku_sale_amount) as cost&#13;&#10;    ,sum(receiving_quantity) as receiving_quantity&#13;&#10;    from dw_finance_waste_all_daily_di_v1&#13;&#10;    where  dt&gt;&gt;=date_format(date_sub(current_date,14),&apos;YMMdd&apos;)              &#13;&#10;        and report_date&gt;&gt;=date_format(date_sub(current_date,14),&apos;Y-MM-dd&apos;)  &#13;&#10;    group by report_date,store_code,sku_code&#13;&#10;    ) c&#13;&#10;        on a.store_code= c.store_code and a.sku_code=c.sku_code and a.order_date = c.report_date&#13;&#10;left join&#13;&#10;    ( select date_key, is_working_day&#13;&#10;    from dim_date_ya_v2&#13;&#10;    where date_key&gt;&gt;=date_format(date_sub(current_date,14),&apos;Y-MM-dd&apos;)  ) b    --- &apos;2018-03-01&apos;&#13;&#10;    on a.order_date=b.date_key)&#13;&#10;&#13;&#10;select order_date,store_code,city_code,store_city,&#13;&#10;        sum(sku_quantity)as sku_quantity,&#13;&#10;        sum(sell_price) as sell_price,&#13;&#10;        sum(activity_quantity) as activity_quantity,&#13;&#10;        sum(payable_price) as payable_price ,&#13;&#10;        sum(origin_payable_price) as origin_payable_price ,&#13;&#10;        sum(profit) as profit,&#13;&#10;        sum(origin_profit) as origin_profit,&#13;&#10;        sum(waste) as waste,&#13;&#10;        sum(waste_quantity) as waste_quantity ,&#13;&#10;        sum(activity_sell_price) as activity_sell_price,&#13;&#10;        sum(cost) as cost ,&#13;&#10;        sum(receiving_quantity) as receiving_quantity,&#13;&#10;        sum(activity_origin_payable_price) as activity_origin_payable_price&#13;&#10;from OrderWaste &#13;&#10;group by order_date,store_code,city_code,store_city</relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>order_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[order_date]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>order_date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>store_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[store_code]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>store_code</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city_code]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>city_code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>store_city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[store_city]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>store_city</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sku_quantity</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[sku_quantity]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>sku_quantity</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sell_price</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[sell_price]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>sell_price</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>activity_quantity</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[activity_quantity]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>activity_quantity</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>payable_price</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[payable_price]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>payable_price</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>origin_payable_price</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[origin_payable_price]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>origin_payable_price</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>profit</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[profit]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>profit</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>origin_profit</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[origin_profit]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>origin_profit</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>waste</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[waste]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>waste</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>31</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>waste_quantity</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[waste_quantity]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>waste_quantity</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>31</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>activity_sell_price</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[activity_sell_price]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>activity_sell_price</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cost</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[cost]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>cost</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>30</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>receiving_quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[receiving_quantity]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>receiving_quantity</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>activity_origin_payable_price</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[activity_origin_payable_price]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>activity_origin_payable_price</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[city_code]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[store_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[store_code]' role='dimension' type='nominal' />
+      <column-instance column='[store_code]' derivation='None' name='[none:store_code:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.227766' measure-ordering='alphabetic' measure-percentage='0.772234' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:store_code:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;100001010&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100001037&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100001072&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100001099&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100003005&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100016002&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100027001&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100071001&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;110001013&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;123001025&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100001001&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100001028&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100001063&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100001088&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100002005&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100011001&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100022003&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100051002&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;110001003&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;123001007&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100001006&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100001032&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100001068&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100001093&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100002009&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100011006&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100023003&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100058001&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;110001008&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;123001015&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100001016&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100001051&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100001078&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100001109&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100006002&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100017003&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100033002&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;101001006&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;110001020&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;188001001&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100001011&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100001038&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100001073&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100001101&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100003006&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100016003&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100030001&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;101001002&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;110001015&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;123001026&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100001007&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100001033&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100001069&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100001095&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100003001&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100011007&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100023005&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100061001&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;110001010&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;123001017&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100001025&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100001061&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100001085&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100002002&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100010001&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100022001&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100037001&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;110001001&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;123001003&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;188001009&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100001002&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100001029&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100001065&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100001089&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100002006&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100011002&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100022005&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100051003&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;110001005&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;123001011&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100001021&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100001058&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100001082&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100001119&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100008003&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100019003&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100035001&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;101001012&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;110001025&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;188001006&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100001008&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100001035&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100001070&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100001096&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100003002&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100012001&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100023006&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100063001&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;110001011&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;123001021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100001018&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100001052&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100001079&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100001110&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100006003&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100017005&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100033003&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;101001007&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;110001021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;188001002&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100001019&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100001053&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100001080&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100001111&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100008001&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100019001&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100033005&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;101001010&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;110001022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;188001003&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100001023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100001060&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100001083&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100002001&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100009001&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100019005&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100036001&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;101001013&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;123001001&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;188001008&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100001027&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100001062&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100001086&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100002003&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100010002&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100022002&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100051001&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;110001002&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;123001006&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100001012&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100001039&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100001075&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100001102&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100005002&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100017001&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100031001&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;101001003&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;110001016&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;123001027&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100001009&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100001036&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100001071&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100001098&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100003003&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100016001&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100025002&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100070001&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;110001012&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;123001022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100001003&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100001030&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100001066&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100001091&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100002007&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100011003&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100023001&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100057001&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;110001006&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;123001012&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100001020&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100001057&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100001081&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100001113&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100008002&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100019002&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100033006&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;101001011&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;110001023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;188001005&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100001013&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100001050&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100001077&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100001108&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100006001&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100017002&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100033001&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;101001005&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;110001019&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;123001028&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100001005&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100001031&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100001067&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100001092&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100002008&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100011005&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100023002&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100057002&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;110001007&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;123001013&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='10.253.0.146 (2)' inline='true' name='federated.18wobp815crbcf1elzypr0weh59w (copy)' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='10.253.0.146' name='hadoophive.0i9ckl00rzmgk615dday7081m1i9 (copy)'>
+            <connection authentication='yes' authentication-type='3' class='hadoophive' connection-type='2' dbname='' http-path='' kerberos-host='' kerberos-realm='' kerberos-service='' odbc-connect-string-extras='' one-time-sql='' port='10200' schema='default' server='10.253.0.146' sslcert='' sslfile='' sslmode='' transport-type='1' use-native-query='1' username='yunan.dong'>
+              <connection-customization class='hadoophive' enabled='false' version='18.1'>
+                <vendor name='hadoophive' />
+                <driver name='hadoophive' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='yes' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='yes' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='yes' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='yes' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='yes' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='yes' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='yes' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='yes' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <relation connection='hadoophive.0i9ckl00rzmgk615dday7081m1i9 (copy)' name='custom_sql_query' type='text'>with OrderWaste as(&#13;&#10; select a.order_date as order_date ,a.store_code as store_code ,a.store_name as store_name &#13;&#10;       -- ,a.order_no as order_no&#13;&#10;        ,a.sku_code as sku_code&#13;&#10; --,d.bigorder as bigorder&#13;&#10;   -- ,a.orders as orders&#13;&#10;    ,a.sku_quantity as sku_quantity,a.sell_price as sell_price ,a.activity_quantity as activity_quantity&#13;&#10;    ,a.activity_sell_price as activity_sell_price&#13;&#10;    ,a.payable_price as payable_price ,a.origin_payable_price as origin_payable_price&#13;&#10;    ,a.profit as profit,a.origin_profit as origin_profit,a.activity_origin_payable_price as activity_origin_payable_price&#13;&#10;    ,f.city_code as city_code ,store_city as store_city ,f.is_new_store as is_new_store,f.opening_date as opening_date&#13;&#10;    ,b.is_working_day as is_working_day&#13;&#10;    ,c.waste as waste,c.waste_quantity as waste_quantity,c.cost as cost,c.receiving_quantity as receiving_quantity&#13;&#10;    from&#13;&#10;    (select order_date,store_code,store_name,sku_code&#13;&#10;        --,if(activity_name like &apos;%动态促销%&apos;,1,0) as is_activity&#13;&#10;       -- ,count(distinct order_no)as orders --订单数量&#13;&#10;      ,sum(sku_quantity)as sku_quantity --sku销售数量&#13;&#10;        ,sum(sell_price)  as sell_price --应收价钱&#13;&#10;        ,sum(case when activity_name like &apos;%动态促销%&apos; then sku_quantity else 0 end) as activity_quantity  --动促销量&#13;&#10;         ,sum(case when activity_name like &apos;%动态促销%&apos; then origin_payable_price else 0 end) as activity_origin_payable_price  --动促蜂蜜抵扣前的实际支付&#13;&#10;         ,sum(case when activity_name like &apos;%动态促销%&apos; then sell_price else 0 end) as activity_sell_price  --动 促应收 &#13;&#10;       ,sum(payable_price)as payable_price --实际支付&#13;&#10;        ,sum(origin_payable_price)as origin_payable_price --蜂蜜抵扣前的实际支付&#13;&#10;        ,sum(payable_price-cost_price-cost_tax+vendor_allocated_cost_price) as profit --利润额&#13;&#10;        ,sum(origin_payable_price-cost_price-cost_tax+vendor_allocated_cost_price) as origin_profit --蜂蜜抵扣前的利润额&#13;&#10;    from dw_order_sku_promotion_v1&#13;&#10;    where dt=date_format(date_sub(current_date,1),&apos;yMMdd&apos;)&#13;&#10;        and order_status=&apos;FINISHED&apos; &#13;&#10;        and order_date &gt;&gt;= date_format(date_sub(current_date,14),&apos;Y-MM-dd&apos;) &#13;&#10;        and sku_division_code in (&apos;0101&apos;,&apos;0102&apos;,&apos;0103&apos;,&apos;0401&apos;,&apos;0201&apos;,&apos;0202&apos;)&#13;&#10;       -- and  order_no not in (select distinct order_no &#13;&#10;        --                        from dw_dynamic_promotion_user_big_order_di&#13;&#10;        --                        where dt&gt;&gt;=date_format(date_sub(current_date,1),&apos;YMMdd&apos;) )&#13;&#10;    group by order_date,store_code,store_name,sku_code ) a&#13;&#10;join&#13;&#10;    (select dim_store_info.store_code as store_code ,dim_store_info.city_code as city_code ,dim_store_info.store_city as store_city&#13;&#10;            ,dim_store_store_opening_date.is_new_store as is_new_store,dim_store_store_opening_date.opening_date as opening_date&#13;&#10;            --, dim_dynamic_promotion_store_division_info.shop_tag as shop_tag&#13;&#10;    from dim_store_info &#13;&#10;     join dim_store_store_opening_date &#13;&#10;        on dim_store_info.store_code=dim_store_store_opening_date.store_code&#13;&#10;      --  left join dim_dynamic_promotion_store_division_info&#13;&#10;      --      on dim_store_info.store_code=dim_dynamic_promotion_store_division_info.store_code&#13;&#10;    where  dim_store_info.dt=date_format(date_sub(current_date,1),&apos;YMMdd&apos;) and dim_store_info.store_type=0&#13;&#10;        and  dim_store_store_opening_date.dt=date_format(date_sub(current_date,1),&apos;YMMdd&apos;)  and dim_store_store_opening_date.store_type=0 and dim_store_store_opening_date.is_new_store=0&#13;&#10;          --  and  dim_dynamic_promotion_store_division_info.dt=date_format(date_sub(current_date,1),&apos;YMMdd&apos;)  and dim_dynamic_promotion_store_division_info.store_type=0&#13;&#10;    ) f &#13;&#10;        on a.store_code=f.store_code&#13;&#10;left join  &#13;&#10;     (select report_date,store_code,sku_code&#13;&#10;    ,if(sum(sale_waste_amount+adjustment_balance_amount)&lt;&lt;0,-sum(sale_waste_amount+adjustment_balance_amount),0) as waste&#13;&#10;    ,if(sum(sale_waste_quantity+adjustment_balance_quantity)&lt;&lt;0,-sum(sale_waste_quantity+adjustment_balance_quantity),0) as waste_quantity&#13;&#10;    ,sum(sku_sale_amount) as cost&#13;&#10;    ,sum(receiving_quantity) as receiving_quantity&#13;&#10;    from dw_finance_waste_all_daily_di_v1&#13;&#10;    where  dt&gt;&gt;=date_format(date_sub(current_date,14),&apos;YMMdd&apos;)              &#13;&#10;        and report_date&gt;&gt;=date_format(date_sub(current_date,14),&apos;Y-MM-dd&apos;)  &#13;&#10;    group by report_date,store_code,sku_code&#13;&#10;    ) c&#13;&#10;        on a.store_code= c.store_code and a.sku_code=c.sku_code and a.order_date = c.report_date&#13;&#10;left join&#13;&#10;    ( select date_key, is_working_day&#13;&#10;    from dim_date_ya_v2&#13;&#10;    where date_key&gt;&gt;=date_format(date_sub(current_date,14),&apos;Y-MM-dd&apos;)  ) b    --- &apos;2018-03-01&apos;&#13;&#10;    on a.order_date=b.date_key)&#13;&#10;&#13;&#10;select order_date,store_code,city_code,store_city,&#13;&#10;        sum(sku_quantity)as sku_quantity,&#13;&#10;        sum(sell_price) as sell_price,&#13;&#10;        sum(activity_quantity) as activity_quantity,&#13;&#10;        sum(payable_price) as payable_price ,&#13;&#10;        sum(origin_payable_price) as origin_payable_price ,&#13;&#10;        sum(profit) as profit,&#13;&#10;        sum(origin_profit) as origin_profit,&#13;&#10;        sum(waste) as waste,&#13;&#10;        sum(waste_quantity) as waste_quantity ,&#13;&#10;        sum(activity_sell_price) as activity_sell_price,&#13;&#10;        sum(cost) as cost ,&#13;&#10;        sum(receiving_quantity) as receiving_quantity,&#13;&#10;        sum(activity_origin_payable_price) as activity_origin_payable_price&#13;&#10;from OrderWaste &#13;&#10;group by order_date,store_code,city_code,store_city</relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>order_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[order_date]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>order_date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>store_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[store_code]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>store_code</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city_code]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>city_code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>store_city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[store_city]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>store_city</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sku_quantity</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[sku_quantity]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>sku_quantity</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sell_price</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[sell_price]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>sell_price</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>activity_quantity</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[activity_quantity]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>activity_quantity</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>payable_price</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[payable_price]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>payable_price</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>origin_payable_price</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[origin_payable_price]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>origin_payable_price</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>profit</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[profit]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>profit</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>origin_profit</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[origin_profit]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>origin_profit</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>waste</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[waste]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>waste</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>31</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>waste_quantity</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[waste_quantity]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>waste_quantity</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>31</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>activity_sell_price</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[activity_sell_price]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>activity_sell_price</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cost</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[cost]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>cost</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>30</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>receiving_quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[receiving_quantity]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>receiving_quantity</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>activity_origin_payable_price</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[activity_origin_payable_price]</local-name>
+            <parent-name>[custom_sql_query]</parent-name>
+            <remote-alias>activity_origin_payable_price</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[city_code]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[store_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[store_code]' role='dimension' type='nominal' />
+      <column-instance column='[store_code]' derivation='None' name='[none:store_code:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.227766' measure-ordering='alphabetic' measure-percentage='0.772234' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:store_code:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;100001010&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100001037&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100001072&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100001099&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100003005&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100016002&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100027001&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100071001&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;110001013&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;123001025&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100001001&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100001028&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100001063&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100001088&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100002005&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100011001&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100022003&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;100051002&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;110001003&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;123001007&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100001006&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100001032&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100001068&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100001093&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100002009&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100011006&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100023003&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;100058001&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;110001008&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;123001015&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100001016&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100001051&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100001078&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100001109&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100006002&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100017003&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;100033002&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;101001006&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;110001020&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;188001001&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100001011&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100001038&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100001073&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100001101&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100003006&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100016003&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100030001&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;101001002&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;110001015&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;123001026&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100001007&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100001033&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100001069&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100001095&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100003001&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100011007&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100023005&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;100061001&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;110001010&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;123001017&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100001025&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100001061&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100001085&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100002002&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100010001&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100022001&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;100037001&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;110001001&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;123001003&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;188001009&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100001002&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100001029&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100001065&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100001089&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100002006&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100011002&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100022005&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;100051003&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;110001005&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;123001011&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100001021&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100001058&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100001082&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100001119&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100008003&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100019003&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;100035001&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;101001012&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;110001025&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;188001006&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100001008&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100001035&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100001070&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100001096&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100003002&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100012001&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100023006&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;100063001&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;110001011&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;123001021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100001018&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100001052&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100001079&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100001110&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100006003&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100017005&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;100033003&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;101001007&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;110001021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;188001002&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100001019&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100001053&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100001080&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100001111&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100008001&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100019001&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;100033005&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;101001010&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;110001022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;188001003&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100001023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100001060&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100001083&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100002001&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100009001&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100019005&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;100036001&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;101001013&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;123001001&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;188001008&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100001027&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100001062&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100001086&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100002003&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100010002&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100022002&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;100051001&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;110001002&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;123001006&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100001012&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100001039&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100001075&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100001102&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100005002&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100017001&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;100031001&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;101001003&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;110001016&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;123001027&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100001009&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100001036&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100001071&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100001098&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100003003&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100016001&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100025002&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;100070001&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;110001012&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;123001022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100001003&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100001030&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100001066&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100001091&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100002007&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100011003&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100023001&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;100057001&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;110001006&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;123001012&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100001020&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100001057&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100001081&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100001113&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100008002&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100019002&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;100033006&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;101001011&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;110001023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;188001005&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100001013&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100001050&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100001077&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100001108&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100006001&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100017002&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;100033001&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;101001005&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;110001019&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;123001028&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100001005&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100001031&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100001067&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100001092&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100002008&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100011005&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100023002&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;100057002&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;110001007&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;123001013&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>test&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='10.253.0.146' name='federated.18wobp815crbcf1elzypr0weh59w' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.18wobp815crbcf1elzypr0weh59w'>
+            <column datatype='string' name='[city_code]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[order_date]' derivation='Day' name='[dy:order_date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[city_code]' derivation='None' name='[none:city_code:nk]' pivot='key' type='nominal' />
+            <column-instance column='[order_date]' derivation='None' name='[none:order_date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[store_city]' derivation='None' name='[none:store_city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[store_code]' derivation='None' name='[none:store_code:nk]' pivot='key' type='nominal' />
+            <column datatype='date' name='[order_date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[profit]' role='measure' type='quantitative' />
+            <column datatype='string' name='[store_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[store_code]' role='dimension' type='nominal' />
+            <column-instance column='[profit]' derivation='Sum' name='[sum:profit:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18wobp815crbcf1elzypr0weh59w].[none:city_code:nk]'>
+            <groupfilter function='member' level='[none:city_code:nk]' member='&quot;188&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.18wobp815crbcf1elzypr0weh59w].[none:order_date:qk]' included-values='in-range'>
+            <min>#2018-07-31#</min>
+            <max>#2018-08-08#</max>
+          </filter>
+          <filter class='categorical' column='[federated.18wobp815crbcf1elzypr0weh59w].[none:store_city:nk]'>
+            <groupfilter function='level-members' level='[none:store_city:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18wobp815crbcf1elzypr0weh59w].[none:city_code:nk]</column>
+            <column>[federated.18wobp815crbcf1elzypr0weh59w].[none:order_date:qk]</column>
+            <column>[federated.18wobp815crbcf1elzypr0weh59w].[none:store_city:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.18wobp815crbcf1elzypr0weh59w].[sum:profit:qk]' />
+              <color column='[federated.18wobp815crbcf1elzypr0weh59w].[sum:profit:qk]' />
+              <text column='[federated.18wobp815crbcf1elzypr0weh59w].[none:city_code:nk]' />
+              <text column='[federated.18wobp815crbcf1elzypr0weh59w].[none:store_city:nk]' />
+              <text column='[federated.18wobp815crbcf1elzypr0weh59w].[none:store_code:nk]' />
+              <text column='[federated.18wobp815crbcf1elzypr0weh59w].[dy:order_date:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 1 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>test&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='10.253.0.146 (2)' name='federated.18wobp815crbcf1elzypr0weh59w (copy)' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.18wobp815crbcf1elzypr0weh59w (copy)'>
+            <column datatype='string' name='[city_code]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[order_date]' derivation='Day' name='[dy:order_date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[city_code]' derivation='None' name='[none:city_code:nk]' pivot='key' type='nominal' />
+            <column-instance column='[order_date]' derivation='None' name='[none:order_date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[store_city]' derivation='None' name='[none:store_city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[store_code]' derivation='None' name='[none:store_code:nk]' pivot='key' type='nominal' />
+            <column datatype='date' name='[order_date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[profit]' role='measure' type='quantitative' />
+            <column datatype='string' name='[store_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[store_code]' role='dimension' type='nominal' />
+            <column-instance column='[profit]' derivation='Sum' name='[sum:profit:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:city_code:nk]'>
+            <groupfilter function='member' level='[none:city_code:nk]' member='&quot;188&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:order_date:qk]' included-values='in-range'>
+            <min>#2018-07-31#</min>
+            <max>#2018-08-08#</max>
+          </filter>
+          <filter class='categorical' column='[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_city:nk]'>
+            <groupfilter function='level-members' level='[none:store_city:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:city_code:nk]</column>
+            <column>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:order_date:qk]</column>
+            <column>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_city:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_code:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:city_code:nk] * [federated.18wobp815crbcf1elzypr0weh59w (copy)].[sum:profit:qk])</rows>
+        <cols>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[dy:order_date:qk]</cols>
+        <pages>
+          <column>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_city:nk]</column>
+        </pages>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='10.253.0.146' name='federated.18wobp815crbcf1elzypr0weh59w' />
+        <datasource caption='10.253.0.146 (2)' name='federated.18wobp815crbcf1elzypr0weh59w (copy)' />
+      </datasources>
+      <datasource-dependencies datasource='federated.18wobp815crbcf1elzypr0weh59w'>
+        <column-instance column='[store_city]' derivation='None' name='[none:store_city:nk]' pivot='key' type='nominal' />
+        <column datatype='string' name='[store_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.18wobp815crbcf1elzypr0weh59w (copy)'>
+        <column-instance column='[store_city]' derivation='None' name='[none:store_city:nk]' pivot='key' type='nominal' />
+        <column datatype='string' name='[store_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='5' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='3' type='layout-basic' w='60800' x='800' y='1000'>
+              <zone h='49000' id='1' name='Sheet 1' w='30400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='8' name='Sheet 1 (2)' w='60800' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='12' param='horz' type='layout-flow' w='30400' x='31200' y='1000'>
+                <zone h='49000' id='13' param='vert' type='layout-flow' w='30400' x='31200' y='1000' />
+              </zone>
+            </zone>
+            <zone fixed-size='376' h='98000' id='4' is-fixed='true' param='vert' type='layout-flow' w='37600' x='61600' y='1000'>
+              <zone h='18250' id='6' name='Sheet 1' param='[federated.18wobp815crbcf1elzypr0weh59w].[none:store_city:nk]' type='filter' w='37600' x='61600' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8125' id='7' name='Sheet 1' pane-specification-id='0' param='[federated.18wobp815crbcf1elzypr0weh59w].[sum:profit:qk]' type='color' w='37600' x='61600' y='19250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='18250' id='9' name='Sheet 1 (2)' param='[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_city:nk]' type='filter' w='37600' x='61600' y='27375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='20750' id='10' name='Sheet 1 (2)' pane-specification-id='0' param='[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_code:nk]' type='color' w='37600' x='61600' y='45625'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='13750' id='11' name='Sheet 1 (2)' synchronized='1' type='currpage' w='37600' x='61600' y='66375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card param='[federated.18wobp815crbcf1elzypr0weh59w].[none:store_city:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.18wobp815crbcf1elzypr0weh59w].[sum:profit:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.18wobp815crbcf1elzypr0weh59w].[dy:order_date:ok]</field>
+            <field>[federated.18wobp815crbcf1elzypr0weh59w].[none:city_code:nk]</field>
+            <field>[federated.18wobp815crbcf1elzypr0weh59w].[none:order_date:qk]</field>
+            <field>[federated.18wobp815crbcf1elzypr0weh59w].[none:store_city:nk]</field>
+            <field>[federated.18wobp815crbcf1elzypr0weh59w].[sum:profit:qk]</field>
+            <field>[federated.18wobp815crbcf1elzypr0weh59w].[yr:order_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Sheet 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card param='[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_city:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_code:nk]' type='color' />
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:city_code:nk]</field>
+            <field>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:order_date:qk]</field>
+            <field>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_city:nk]</field>
+            <field>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_code:nk]</field>
+            <field>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[yr:order_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+        <viewpoint name='Sheet 1 (2)'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <node-selection select-tuples='false'>
+              <oriented-node-reference orientation='vertical'>
+                <node-reference>
+                  <fields>
+                    <field>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:city_code:nk]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>&quot;188&quot;</bucket>
+                  </multibucket>
+                  <axis>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[sum:profit:qk]</axis>
+                </node-reference>
+                <page-reference>
+                  <fields>
+                    <field>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_city:nk]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>&quot;廊坊市&quot;</bucket>
+                  </multibucket>
+                </page-reference>
+              </oriented-node-reference>
+            </node-selection>
+          </selection-collection>
+          <highlight>
+            <color-one-way>
+              <field>[federated.18wobp815crbcf1elzypr0weh59w (copy)].[none:store_code:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='13' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      PwkFknQw+qz7AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1 (2)' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
